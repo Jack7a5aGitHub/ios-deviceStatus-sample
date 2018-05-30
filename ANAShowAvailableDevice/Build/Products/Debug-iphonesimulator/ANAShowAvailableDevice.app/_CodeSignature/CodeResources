@@ -6,11 +6,11 @@
 	<dict>
 		<key>AvailableDevicesTableViewCell.nib</key>
 		<data>
-		160Z2UWnQTy/g6lNttOBE4XyVFY=
+		Nmfk0UHyWzLgjKRg0UOW0kX99cc=
 		</data>
 		<key>AvailableDevicesViewController.storyboardc/AvailableDevicesViewController.nib</key>
 		<data>
-		u1CgWAuNT3GkepDr2pxBGuIBQm4=
+		2ZqQ/VPRXFtgxooxO1kFH9BNZvU=
 		</data>
 		<key>AvailableDevicesViewController.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>AvailableDevicesViewController.storyboardc/vwC-hL-clk-view-Aq3-GK-69U.nib</key>
 		<data>
-		Aq1NWvsrOLWmbKgKBxh+eR2Mhn4=
+		4pJPvQDccy3FpspzmKoeHFLkoCE=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		+N9udt20U1v2wbRhggoh1gvjrpY=
+		AHC5oj93Azd6GYnorN4wfNjOf4A=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Ol+bVTo8uqYCu6NWlCNAlwYY+K8=
+		jQdf5GZ/aFKFpX+0yVy9cS53KaI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		0Jk5hG1rrUTHG570lo2+5j1N498=
+		o4PexN2c3qbVZreVHTzqxPfd9Ic=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UINavigationController-Idr-Bx-Wk5.nib</key>
 		<data>
-		7tZdRcbQY1lSavvPlTQojZKxnj4=
+		w8G1xMRLQk1yc0ciMegKFwmhHkA=
 		</data>
 		<key>DeviceScheduleViewController.storyboardc/Info.plist</key>
 		<data>
@@ -131,22 +131,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			160Z2UWnQTy/g6lNttOBE4XyVFY=
+			Nmfk0UHyWzLgjKRg0UOW0kX99cc=
 			</data>
 			<key>hash2</key>
 			<data>
-			SMvY1na9ielEbHOdkcagUw+L62D7WVcemOTNDm61jMA=
+			667JfUbv7+K5U+45Basn5nGuucGvsqMl+lKQa5tDvM0=
 			</data>
 		</dict>
 		<key>AvailableDevicesViewController.storyboardc/AvailableDevicesViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			u1CgWAuNT3GkepDr2pxBGuIBQm4=
+			2ZqQ/VPRXFtgxooxO1kFH9BNZvU=
 			</data>
 			<key>hash2</key>
 			<data>
-			L5sCThw/E3HxaDhzG0NWLAvUATdVVl/7K9K8nOwXllQ=
+			y0SSdmEGn24mzS1i3V4XMoIcp21QXX06Hardhchf9u4=
 			</data>
 		</dict>
 		<key>AvailableDevicesViewController.storyboardc/Info.plist</key>
@@ -164,22 +164,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Aq1NWvsrOLWmbKgKBxh+eR2Mhn4=
+			4pJPvQDccy3FpspzmKoeHFLkoCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q4eke6yP80IiBcRCU9uiY+KAow1V210b0QOBeVSqbDk=
+			vP7p9X/k1BkFM3P1eqaNnbRxwnyBypYu+zmeVEengPg=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+N9udt20U1v2wbRhggoh1gvjrpY=
+			AHC5oj93Azd6GYnorN4wfNjOf4A=
 			</data>
 			<key>hash2</key>
 			<data>
-			X343Lp2EJt+Ao1Xah90tylUh6nOWt0Emjn+4JNgVIVI=
+			Q3d53opPLay2e1o8MzO4HfyEt2d/rB7jBPhtxI7Oi/8=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -197,22 +197,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ol+bVTo8uqYCu6NWlCNAlwYY+K8=
+			jQdf5GZ/aFKFpX+0yVy9cS53KaI=
 			</data>
 			<key>hash2</key>
 			<data>
-			BP4Rdx8AKy1J8fXylB6oZNCwfeWnp7gA9AGJOMZxOPo=
+			zXoA0R7UZ4FFoc3sasm4yy3muiub5U3458ExWoxZXsc=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Jk5hG1rrUTHG570lo2+5j1N498=
+			o4PexN2c3qbVZreVHTzqxPfd9Ic=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tcrg15SwIdmC36p6SIP+ynbrfAo75djMeMFldm6iqQI=
+			+8pp0pN/unD2ndqxSJkFfc33jxRmn52xjylUmt3/O2g=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -230,11 +230,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7tZdRcbQY1lSavvPlTQojZKxnj4=
+			w8G1xMRLQk1yc0ciMegKFwmhHkA=
 			</data>
 			<key>hash2</key>
 			<data>
-			6dTKUSDrsokx4nCGv6baoflCeu+PmVDWWz6HmCQ5XZY=
+			GJNZpGEEME3qhRe5L/roJRluC3PJSu5+yDTAUScNP/w=
 			</data>
 		</dict>
 		<key>DeviceScheduleViewController.storyboardc/Info.plist</key>

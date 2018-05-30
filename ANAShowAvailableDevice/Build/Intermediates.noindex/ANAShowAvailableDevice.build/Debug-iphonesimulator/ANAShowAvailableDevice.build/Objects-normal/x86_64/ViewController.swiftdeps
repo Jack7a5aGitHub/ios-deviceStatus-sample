@@ -5,28 +5,35 @@ provides-nominal:
 - "22ANAShowAvailableDevice14ViewControllerC"
 provides-member:
 - ["22ANAShowAvailableDevice14ViewControllerC", ""]
+- ["22ANAShowAvailableDevice14ViewControllerC", "touchesBegan"]
 provides-dynamic-lookup:
 - "emailAddress"
 - "loginAction"
 - "password"
+- "touchesBegan"
 - "viewDidLoad"
 depends-top-level:
 - !private "!"
 - !private "&&"
 - !private "AvailableDevicesViewController"
 - !private "BooleanLiteralType"
+- "Set"
+- "UIEvent"
 - "UITextField"
+- "UITouch"
 - "UIViewController"
 - "ViewController"
 depends-member:
 - !private ["22ANAShowAvailableDevice0B21DevicesViewControllerC", "make"]
 - !private ["s23BidirectionalCollectionP", "isEmpty"]
 - !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "endEditing"]
 - !private ["So15CALayerDelegateP", "text"]
 - !private ["s7CVarArgP", "AvailableDevicesViewController"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "emailAddress"]
+- !private ["s7CVarArgP", "endEditing"]
 - !private ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isEmpty"]
 - !private ["s7CVarArgP", "login"]
@@ -35,12 +42,14 @@ depends-member:
 - !private ["s7CVarArgP", "password"]
 - !private ["s7CVarArgP", "pushViewController"]
 - !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "view"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - !private ["s10CollectionP", "isEmpty"]
 - !private ["s10ComparableP", "isEmpty"]
 - !private ["s28CustomDebugStringConvertibleP", "AvailableDevicesViewController"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "emailAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "endEditing"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
 - !private ["s28CustomDebugStringConvertibleP", "login"]
@@ -49,6 +58,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "password"]
 - !private ["s28CustomDebugStringConvertibleP", "pushViewController"]
 - !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - !private ["s29CustomPlaygroundQuickLookableP", "isEmpty"]
@@ -58,6 +68,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "emailAddress"]
+- !private ["s23CustomStringConvertibleP", "endEditing"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isEmpty"]
 - !private ["s23CustomStringConvertibleP", "login"]
@@ -66,6 +77,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "password"]
 - !private ["s23CustomStringConvertibleP", "pushViewController"]
 - !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "view"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "isEmpty"]
@@ -75,6 +87,7 @@ depends-member:
 - ["s9EquatableP", ""]
 - !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - !private ["s9EquatableP", "emailAddress"]
+- !private ["s9EquatableP", "endEditing"]
 - !private ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "isEmpty"]
 - !private ["s9EquatableP", "login"]
@@ -83,6 +96,7 @@ depends-member:
 - !private ["s9EquatableP", "password"]
 - !private ["s9EquatableP", "pushViewController"]
 - !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "view"]
 - !private ["s9EquatableP", "viewDidLoad"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
@@ -93,6 +107,7 @@ depends-member:
 - ["s8HashableP", ""]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - !private ["s8HashableP", "emailAddress"]
+- !private ["s8HashableP", "endEditing"]
 - !private ["s8HashableP", "init"]
 - !private ["s8HashableP", "isEmpty"]
 - !private ["s8HashableP", "login"]
@@ -101,6 +116,7 @@ depends-member:
 - !private ["s8HashableP", "password"]
 - !private ["s8HashableP", "pushViewController"]
 - !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "view"]
 - !private ["s8HashableP", "viewDidLoad"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s25LosslessStringConvertibleP", "isEmpty"]
@@ -108,6 +124,7 @@ depends-member:
 - !private ["So8NSCodingP", "AvailableDevicesViewController"]
 - ["So8NSCodingP", ""]
 - !private ["So8NSCodingP", "emailAddress"]
+- !private ["So8NSCodingP", "endEditing"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "isEmpty"]
 - !private ["So8NSCodingP", "login"]
@@ -116,6 +133,7 @@ depends-member:
 - !private ["So8NSCodingP", "password"]
 - !private ["So8NSCodingP", "pushViewController"]
 - !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "view"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - !private ["So9NSCopyingP", "isEmpty"]
 - !private ["So26NSExtensionRequestHandlingP", "AvailableDevicesViewController"]
@@ -127,13 +145,18 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "navigationController"]
 - !private ["So26NSExtensionRequestHandlingP", "password"]
 - !private ["So26NSExtensionRequestHandlingP", "pushViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So21NSItemProviderReadingP", "isEmpty"]
 - !private ["So21NSItemProviderWritingP", "isEmpty"]
 - !private ["So16NSMutableCopyingP", "isEmpty"]
 - !private ["So8NSObjectC", "AvailableDevicesViewController"]
+- ["So8NSObjectC", "Set"]
+- ["So8NSObjectC", "UIEvent"]
 - ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "UITouch"]
 - ["So8NSObjectC", "emailAddress"]
+- !private ["So8NSObjectC", "endEditing"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "isEmpty"]
 - ["So8NSObjectC", "login"]
@@ -143,10 +166,13 @@ depends-member:
 - ["So8NSObjectC", "password"]
 - !private ["So8NSObjectC", "pushViewController"]
 - !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "touchesBegan"]
+- !private ["So8NSObjectC", "view"]
 - ["So8NSObjectC", "viewDidLoad"]
 - !private ["So16NSObjectProtocolP", "AvailableDevicesViewController"]
 - ["So16NSObjectProtocolP", ""]
 - !private ["So16NSObjectProtocolP", "emailAddress"]
+- !private ["So16NSObjectProtocolP", "endEditing"]
 - !private ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "isEmpty"]
 - !private ["So16NSObjectProtocolP", "login"]
@@ -155,6 +181,7 @@ depends-member:
 - !private ["So16NSObjectProtocolP", "password"]
 - !private ["So16NSObjectProtocolP", "pushViewController"]
 - !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "view"]
 - !private ["So16NSObjectProtocolP", "viewDidLoad"]
 - !private ["So14NSSecureCodingP", "isEmpty"]
 - !private ["So8NSStringC", "isEmpty"]
@@ -164,11 +191,14 @@ depends-member:
 - !private ["s14StringProtocolP", "isEmpty"]
 - !private ["s16TextOutputStreamP", "isEmpty"]
 - !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So29UIAccessibilityIdentificationP", "endEditing"]
 - !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "endEditing"]
 - !private ["So12UIAppearanceP", "text"]
 - !private ["So21UIAppearanceContainerP", "AvailableDevicesViewController"]
 - ["So21UIAppearanceContainerP", ""]
 - !private ["So21UIAppearanceContainerP", "emailAddress"]
+- !private ["So21UIAppearanceContainerP", "endEditing"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "login"]
 - !private ["So21UIAppearanceContainerP", "make"]
@@ -176,6 +206,7 @@ depends-member:
 - !private ["So21UIAppearanceContainerP", "password"]
 - !private ["So21UIAppearanceContainerP", "pushViewController"]
 - !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "view"]
 - !private ["So21UIAppearanceContainerP", "viewDidLoad"]
 - !private ["So18UIContentContainerP", "AvailableDevicesViewController"]
 - ["So18UIContentContainerP", ""]
@@ -186,14 +217,18 @@ depends-member:
 - !private ["So18UIContentContainerP", "navigationController"]
 - !private ["So18UIContentContainerP", "password"]
 - !private ["So18UIContentContainerP", "pushViewController"]
+- !private ["So18UIContentContainerP", "view"]
 - !private ["So18UIContentContainerP", "viewDidLoad"]
 - !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "endEditing"]
 - !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "endEditing"]
 - !private ["So13UIDynamicItemP", "text"]
 - !private ["So18UIFocusEnvironmentP", "AvailableDevicesViewController"]
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So18UIFocusEnvironmentP", "emailAddress"]
+- !private ["So18UIFocusEnvironmentP", "endEditing"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "login"]
 - !private ["So18UIFocusEnvironmentP", "make"]
@@ -201,13 +236,16 @@ depends-member:
 - !private ["So18UIFocusEnvironmentP", "password"]
 - !private ["So18UIFocusEnvironmentP", "pushViewController"]
 - !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "view"]
 - !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "endEditing"]
 - !private ["So11UIFocusItemP", "text"]
 - !private ["So10UIKeyInputP", "text"]
 - !private ["So22UINavigationControllerC", "pushViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "AvailableDevicesViewController"]
 - ["So30UIPasteConfigurationSupportingP", ""]
 - !private ["So30UIPasteConfigurationSupportingP", "emailAddress"]
+- !private ["So30UIPasteConfigurationSupportingP", "endEditing"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "login"]
 - !private ["So30UIPasteConfigurationSupportingP", "make"]
@@ -215,10 +253,15 @@ depends-member:
 - !private ["So30UIPasteConfigurationSupportingP", "password"]
 - !private ["So30UIPasteConfigurationSupportingP", "pushViewController"]
 - !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
 - !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - !private ["So11UIResponderC", "AvailableDevicesViewController"]
+- ["So11UIResponderC", "Set"]
+- ["So11UIResponderC", "UIEvent"]
 - ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "UITouch"]
 - ["So11UIResponderC", "emailAddress"]
+- !private ["So11UIResponderC", "endEditing"]
 - ["So11UIResponderC", "init"]
 - ["So11UIResponderC", "login"]
 - ["So11UIResponderC", "loginAction"]
@@ -227,10 +270,13 @@ depends-member:
 - ["So11UIResponderC", "password"]
 - !private ["So11UIResponderC", "pushViewController"]
 - !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "touchesBegan"]
+- !private ["So11UIResponderC", "view"]
 - ["So11UIResponderC", "viewDidLoad"]
 - !private ["So30UIResponderStandardEditActionsP", "AvailableDevicesViewController"]
 - ["So30UIResponderStandardEditActionsP", ""]
 - !private ["So30UIResponderStandardEditActionsP", "emailAddress"]
+- !private ["So30UIResponderStandardEditActionsP", "endEditing"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "login"]
 - !private ["So30UIResponderStandardEditActionsP", "make"]
@@ -238,6 +284,7 @@ depends-member:
 - !private ["So30UIResponderStandardEditActionsP", "password"]
 - !private ["So30UIResponderStandardEditActionsP", "pushViewController"]
 - !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
 - !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - !private ["So20UIScrollViewDelegateP", "make"]
 - !private ["So16UIStateRestoringP", "AvailableDevicesViewController"]
@@ -249,6 +296,7 @@ depends-member:
 - !private ["So16UIStateRestoringP", "navigationController"]
 - !private ["So16UIStateRestoringP", "password"]
 - !private ["So16UIStateRestoringP", "pushViewController"]
+- !private ["So16UIStateRestoringP", "view"]
 - !private ["So16UIStateRestoringP", "viewDidLoad"]
 - !private ["So19UITableViewDelegateP", "make"]
 - !private ["So15UITextDraggableP", "text"]
@@ -260,6 +308,7 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "AvailableDevicesViewController"]
 - ["So18UITraitEnvironmentP", ""]
 - !private ["So18UITraitEnvironmentP", "emailAddress"]
+- !private ["So18UITraitEnvironmentP", "endEditing"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "login"]
 - !private ["So18UITraitEnvironmentP", "make"]
@@ -267,10 +316,15 @@ depends-member:
 - !private ["So18UITraitEnvironmentP", "password"]
 - !private ["So18UITraitEnvironmentP", "pushViewController"]
 - !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "view"]
 - !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So6UIViewC", "endEditing"]
 - !private ["So6UIViewC", "text"]
 - !private ["So16UIViewControllerC", "AvailableDevicesViewController"]
+- ["So16UIViewControllerC", "Set"]
+- ["So16UIViewControllerC", "UIEvent"]
 - ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "UITouch"]
 - ["So16UIViewControllerC", ""]
 - ["So16UIViewControllerC", "emailAddress"]
 - ["So16UIViewControllerC", "init"]
@@ -280,10 +334,15 @@ depends-member:
 - !private ["So16UIViewControllerC", "navigationController"]
 - ["So16UIViewControllerC", "password"]
 - !private ["So16UIViewControllerC", "pushViewController"]
+- ["So16UIViewControllerC", "touchesBegan"]
+- !private ["So16UIViewControllerC", "view"]
 - ["So16UIViewControllerC", "viewDidLoad"]
 - !private ["9Alamofire14URLConvertibleP", "isEmpty"]
 - !private ["22ANAShowAvailableDevice14ViewControllerC", "AvailableDevicesViewController"]
+- ["22ANAShowAvailableDevice14ViewControllerC", "Set"]
+- ["22ANAShowAvailableDevice14ViewControllerC", "UIEvent"]
 - ["22ANAShowAvailableDevice14ViewControllerC", "UITextField"]
+- ["22ANAShowAvailableDevice14ViewControllerC", "UITouch"]
 - ["22ANAShowAvailableDevice14ViewControllerC", "deinit"]
 - ["22ANAShowAvailableDevice14ViewControllerC", "emailAddress"]
 - ["22ANAShowAvailableDevice14ViewControllerC", "init"]
@@ -291,7 +350,10 @@ depends-member:
 - ["22ANAShowAvailableDevice14ViewControllerC", "loginAction"]
 - !private ["22ANAShowAvailableDevice14ViewControllerC", "navigationController"]
 - ["22ANAShowAvailableDevice14ViewControllerC", "password"]
+- ["22ANAShowAvailableDevice14ViewControllerC", "touchesBegan"]
+- !private ["22ANAShowAvailableDevice14ViewControllerC", "view"]
 - ["22ANAShowAvailableDevice14ViewControllerC", "viewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "endEditing"]
 - !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
@@ -303,6 +365,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "AvailableDevicesViewController"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "emailAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endEditing"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "login"]
@@ -311,6 +374,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "password"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "pushViewController"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
@@ -397,7 +461,7 @@ depends-nominal:
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/jackwong/ios-deviceStatus-sample/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -410,9 +474,9 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
-- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jackwong/ios-deviceStatus-sample/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jackwong/ios-deviceStatus-sample/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jackwong/ios-deviceStatus-sample/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
@@ -423,4 +487,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "dacf201b346e315735032de2f7e64df4"
+interface-hash: "5ef5018fdf1a34ccc24ab1afcf0aa912"

@@ -33,9 +33,13 @@ final class AvailableDevicesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTableView()
-        registerNib()
+        setupNavigationBar()
     }
-
+    //MARK: -IBAction
+    @IBAction func logOutAction(_ sender: Any) {
+        self.navigationController?.popToRootViewController(animated: true)
+    }
+    
 }
 
 //MARK: -private func
@@ -47,11 +51,14 @@ extension AvailableDevicesViewController {
         beamAPIDao.result = self
         print("Received email: \(loggedInEmailAddress)")
         beamAPIDao.fetchUserData(email: loggedInEmailAddress)
+        registerNib()
     }
     private func registerNib(){
         availableDevicesTableView.register(UINib(nibName: AvailableDevicesTableViewCell.className, bundle: nil), forCellReuseIdentifier: AvailableDevicesTableViewCell.className)
     }
-   
+    private func setupNavigationBar(){
+        self.navigationItem.setHidesBackButton(true, animated: false)
+    }
 }
 
 //MARK: - FetchResultDelegate

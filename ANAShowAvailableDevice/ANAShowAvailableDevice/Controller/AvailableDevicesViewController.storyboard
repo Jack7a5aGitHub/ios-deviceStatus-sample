@@ -32,7 +32,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="49E-zY-QX5"/>
                     </view>
-                    <navigationItem key="navigationItem" id="jp7-Hm-j2T"/>
+                    <navigationItem key="navigationItem" id="jp7-Hm-j2T">
+                        <barButtonItem key="rightBarButtonItem" title="ログアウト" id="P61-LH-3gb">
+                            <connections>
+                                <action selector="logOutAction:" destination="vwC-hL-clk" id="MyW-OR-XE2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="availableDevicesTableView" destination="S3m-cu-yck" id="t0X-iZ-GcT"/>
                     </connections>

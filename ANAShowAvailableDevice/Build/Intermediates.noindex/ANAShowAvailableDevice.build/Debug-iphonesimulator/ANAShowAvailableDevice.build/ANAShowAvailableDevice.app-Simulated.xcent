@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>PCCZJUYRT6.Jack.ANAShowAvailableDevice</string>
+	<string>D638RKMLF5.Jack.ANAShowAvailableDevice</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>PCCZJUYRT6.Jack.ANAShowAvailableDevice</string>
+		<string>D638RKMLF5.Jack.ANAShowAvailableDevice</string>
 	</array>
 </dict>
 </plist>
