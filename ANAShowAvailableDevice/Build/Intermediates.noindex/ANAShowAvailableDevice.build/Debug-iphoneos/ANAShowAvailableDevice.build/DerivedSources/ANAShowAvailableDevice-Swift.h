@@ -231,16 +231,16 @@ SWIFT_CLASS("_TtC22ANAShowAvailableDevice30AvailableDevicesViewController")
 @interface AvailableDevicesViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified availableDevicesTableView;
 - (void)viewDidLoad;
+- (IBAction)logOutAction:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-
-
 @interface AvailableDevicesViewController (SWIFT_EXTENSION(ANAShowAvailableDevice)) <UITableViewDelegate>
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
+
 
 
 
