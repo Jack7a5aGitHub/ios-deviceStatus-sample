@@ -237,11 +237,10 @@ SWIFT_CLASS("_TtC22ANAShowAvailableDevice30AvailableDevicesViewController")
 @end
 
 
-
-
 @interface AvailableDevicesViewController (SWIFT_EXTENSION(ANAShowAvailableDevice)) <UITableViewDelegate>
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 @end
+
+
 
 
 

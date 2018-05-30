@@ -11,6 +11,7 @@
 		0A9913A020BE36B100480479 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99139F20BE36B100480479 /* AlertHelper.swift */; };
 		0A9913A220BE36EA00480479 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9913A120BE36EA00480479 /* String+Localized.swift */; };
 		0A9913A420BE370900480479 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9913A320BE370900480479 /* Localizable.strings */; };
+		0A9913A920BE43F200480479 /* AvailableDevicesVC+UITAbleViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9913A820BE43F200480479 /* AvailableDevicesVC+UITAbleViewDelegate.swift */; };
 		0AB8335D20B648B000A9DDFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8335C20B648B000A9DDFC /* AppDelegate.swift */; };
 		0AB8335F20B648B000A9DDFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8335E20B648B000A9DDFC /* ViewController.swift */; };
 		0AB8336220B648B000A9DDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8336020B648B000A9DDFC /* Main.storyboard */; };
@@ -26,7 +27,6 @@
 		0AB8338120B65C1100A9DDFC /* UIStoryboard+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8338020B65C1100A9DDFC /* UIStoryboard+Instance.swift */; };
 		0AB8338420B6605D00A9DDFC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB8338320B6605D00A9DDFC /* Alamofire.framework */; };
 		0AF82A0020B6B3B000BBD156 /* AvailableDevicesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF829FF20B6B3B000BBD156 /* AvailableDevicesProvider.swift */; };
-		0AF82A0520B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF82A0420B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift */; };
 		0AF82A0720B807AB00BBD156 /* DeviceScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF82A0620B807AB00BBD156 /* DeviceScheduleViewController.swift */; };
 		0AF82A0920B807C000BBD156 /* DeviceScheduleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF82A0820B807C000BBD156 /* DeviceScheduleViewController.storyboard */; };
 /* End PBXBuildFile section */
@@ -36,6 +36,7 @@
 		0A99139F20BE36B100480479 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertHelper.swift; path = Carthage/Build/iOS/SVProgressHUD.framework/AlertHelper.swift; sourceTree = SOURCE_ROOT; };
 		0A9913A120BE36EA00480479 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
 		0A9913A320BE370900480479 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0A9913A820BE43F200480479 /* AvailableDevicesVC+UITAbleViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AvailableDevicesVC+UITAbleViewDelegate.swift"; path = "../../../../../Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/AvailableDevicesVC+UITAbleViewDelegate.swift"; sourceTree = "<group>"; };
 		0AB8335920B648B000A9DDFC /* ANAShowAvailableDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANAShowAvailableDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB8335C20B648B000A9DDFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AB8335E20B648B000A9DDFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		0AB8338020B65C1100A9DDFC /* UIStoryboard+Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Instance.swift"; path = "ANAShowAvailableDevice/New Group/UIStoryboard+Instance.swift"; sourceTree = SOURCE_ROOT; };
 		0AB8338320B6605D00A9DDFC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		0AF829FF20B6B3B000BBD156 /* AvailableDevicesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableDevicesProvider.swift; sourceTree = "<group>"; };
-		0AF82A0420B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AvailableDevicesVC+UITableViewDelegate.swift"; path = "../../../../SkillUpTest1/SkillUpTest1/View/AvailableDevicesVC+UITableViewDelegate.swift"; sourceTree = "<group>"; };
 		0AF82A0620B807AB00BBD156 /* DeviceScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScheduleViewController.swift; sourceTree = "<group>"; };
 		0AF82A0820B807C000BBD156 /* DeviceScheduleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceScheduleViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +77,14 @@
 				0A99139F20BE36B100480479 /* AlertHelper.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		0A9913A720BE43BE00480479 /* AvailableDevicesViewController+UITableViewDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A9913A820BE43F200480479 /* AvailableDevicesVC+UITAbleViewDelegate.swift */,
+			);
+			path = "AvailableDevicesViewController+UITableViewDelegate";
 			sourceTree = "<group>";
 		};
 		0AB8335020B648B000A9DDFC = {
@@ -126,7 +134,7 @@
 		0AB8337720B65A9C00A9DDFC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				0AF82A0320B7F7E500BBD156 /* AvailableDevicesViewController+UITableViewDelegate */,
+				0A9913A720BE43BE00480479 /* AvailableDevicesViewController+UITableViewDelegate */,
 				0AB8335E20B648B000A9DDFC /* ViewController.swift */,
 				0AB8336020B648B000A9DDFC /* Main.storyboard */,
 				0AB8336E20B659A600A9DDFC /* AvailableDevicesViewController.swift */,
@@ -164,14 +172,6 @@
 				0AB8338320B6605D00A9DDFC /* Alamofire.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0AF82A0320B7F7E500BBD156 /* AvailableDevicesViewController+UITableViewDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				0AF82A0420B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift */,
-			);
-			path = "AvailableDevicesViewController+UITableViewDelegate";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +276,9 @@
 				0AB8337420B65A3C00A9DDFC /* AvailableDevicesTableViewCell.swift in Sources */,
 				0AB8336F20B659A600A9DDFC /* AvailableDevicesViewController.swift in Sources */,
 				0AB8337C20B65B1200A9DDFC /* BeamAPIDto.swift in Sources */,
+				0A9913A920BE43F200480479 /* AvailableDevicesVC+UITAbleViewDelegate.swift in Sources */,
 				0AB8335D20B648B000A9DDFC /* AppDelegate.swift in Sources */,
 				0AB8338120B65C1100A9DDFC /* UIStoryboard+Instance.swift in Sources */,
-				0AF82A0520B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift in Sources */,
 				0AB8337A20B65B0100A9DDFC /* BeamAPIDao.swift in Sources */,
 				0AB8337F20B65C0200A9DDFC /* NSObject+ClassName.swift in Sources */,
 			);
