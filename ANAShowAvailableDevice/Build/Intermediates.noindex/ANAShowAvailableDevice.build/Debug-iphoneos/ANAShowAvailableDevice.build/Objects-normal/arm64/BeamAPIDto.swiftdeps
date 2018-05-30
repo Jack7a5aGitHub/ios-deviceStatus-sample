@@ -1,0 +1,379 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UserInfo"
+- "TemporaryAccess"
+- "TempUserInfo"
+- "PermanentAccess"
+- "PermUserInfo"
+- "DeviceGroupInfo"
+- "DeviceInfo"
+- "DeviceState"
+- "DeviceGroupMembership"
+- "MembershipInfo"
+- "MembershipUserGroup"
+- "DefaultAccessTime"
+- "DefaultAccessTimeOfDeviceGroup"
+provides-nominal:
+- "22ANAShowAvailableDevice8UserInfoV"
+- "22ANAShowAvailableDevice15TemporaryAccessV"
+- "22ANAShowAvailableDevice12TempUserInfoV"
+- "22ANAShowAvailableDevice15PermanentAccessV"
+- "22ANAShowAvailableDevice12PermUserInfoV"
+- "22ANAShowAvailableDevice0C9GroupInfoV"
+- "22ANAShowAvailableDevice0C4InfoV"
+- "22ANAShowAvailableDevice0C5StateV"
+- "22ANAShowAvailableDevice0C15GroupMembershipV"
+- "22ANAShowAvailableDevice14MembershipInfoV"
+- "22ANAShowAvailableDevice19MembershipUserGroupV"
+- "22ANAShowAvailableDevice17DefaultAccessTimeV"
+- "22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV"
+provides-member:
+- ["22ANAShowAvailableDevice8UserInfoV", ""]
+- ["22ANAShowAvailableDevice15TemporaryAccessV", ""]
+- ["22ANAShowAvailableDevice12TempUserInfoV", ""]
+- ["22ANAShowAvailableDevice15PermanentAccessV", ""]
+- ["22ANAShowAvailableDevice12PermUserInfoV", ""]
+- ["22ANAShowAvailableDevice0C9GroupInfoV", ""]
+- ["22ANAShowAvailableDevice0C4InfoV", ""]
+- ["22ANAShowAvailableDevice0C5StateV", ""]
+- ["22ANAShowAvailableDevice0C15GroupMembershipV", ""]
+- ["22ANAShowAvailableDevice14MembershipInfoV", ""]
+- ["22ANAShowAvailableDevice19MembershipUserGroupV", ""]
+- ["22ANAShowAvailableDevice17DefaultAccessTimeV", ""]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Array"
+- "Bool"
+- "Codable"
+- "DefaultAccessTime"
+- "DefaultAccessTimeOfDeviceGroup"
+- "DeviceGroupInfo"
+- "DeviceGroupMembership"
+- "DeviceInfo"
+- "DeviceState"
+- "Int"
+- "MembershipInfo"
+- "MembershipUserGroup"
+- "PermUserInfo"
+- "PermanentAccess"
+- "String"
+- "StringLiteralType"
+- "TempUserInfo"
+- "TemporaryAccess"
+- "UserInfo"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "init"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- ["s9DecodableP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "accessTimes"]
+- !private ["s9DecodableP", "callState"]
+- !private ["s9DecodableP", "deviceGroup"]
+- !private ["s9DecodableP", "deviceTypeName"]
+- !private ["s9DecodableP", "devices"]
+- !private ["s9DecodableP", "emailAddress"]
+- ["s9DecodableP", "encode"]
+- !private ["s9DecodableP", "friday"]
+- !private ["s9DecodableP", "id"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "isTemporary"]
+- !private ["s9DecodableP", "monday"]
+- !private ["s9DecodableP", "name"]
+- !private ["s9DecodableP", "objects"]
+- !private ["s9DecodableP", "saturday"]
+- !private ["s9DecodableP", "state"]
+- !private ["s9DecodableP", "sunday"]
+- !private ["s9DecodableP", "thursday"]
+- !private ["s9DecodableP", "timeZone"]
+- !private ["s9DecodableP", "tuesday"]
+- !private ["s9DecodableP", "user"]
+- !private ["s9DecodableP", "wednesday"]
+- !private ["s7DecoderP", "container"]
+- !private ["22ANAShowAvailableDevice17DefaultAccessTimeV", "CodingKeys"]
+- ["22ANAShowAvailableDevice17DefaultAccessTimeV", "DefaultAccessTimeOfDeviceGroup"]
+- ["22ANAShowAvailableDevice17DefaultAccessTimeV", "deinit"]
+- ["22ANAShowAvailableDevice17DefaultAccessTimeV", "encode"]
+- ["22ANAShowAvailableDevice17DefaultAccessTimeV", "init"]
+- ["22ANAShowAvailableDevice17DefaultAccessTimeV", "objects"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "Bool"]
+- !private ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "CodingKeys"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "Int"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "deinit"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "deviceGroup"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "encode"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "endTime"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "friday"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "init"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "monday"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "saturday"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "startTime"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "sunday"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "thursday"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "tuesday"]
+- ["22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV", "wednesday"]
+- !private ["22ANAShowAvailableDevice0C9GroupInfoV", "CodingKeys"]
+- ["22ANAShowAvailableDevice0C9GroupInfoV", "String"]
+- ["22ANAShowAvailableDevice0C9GroupInfoV", "deinit"]
+- ["22ANAShowAvailableDevice0C9GroupInfoV", "devices"]
+- ["22ANAShowAvailableDevice0C9GroupInfoV", "encode"]
+- ["22ANAShowAvailableDevice0C9GroupInfoV", "id"]
+- ["22ANAShowAvailableDevice0C9GroupInfoV", "init"]
+- !private ["22ANAShowAvailableDevice0C15GroupMembershipV", "CodingKeys"]
+- ["22ANAShowAvailableDevice0C15GroupMembershipV", "MembershipInfo"]
+- ["22ANAShowAvailableDevice0C15GroupMembershipV", "deinit"]
+- ["22ANAShowAvailableDevice0C15GroupMembershipV", "encode"]
+- ["22ANAShowAvailableDevice0C15GroupMembershipV", "init"]
+- ["22ANAShowAvailableDevice0C15GroupMembershipV", "objects"]
+- !private ["22ANAShowAvailableDevice0C4InfoV", "CodingKeys"]
+- ["22ANAShowAvailableDevice0C4InfoV", "DeviceState"]
+- ["22ANAShowAvailableDevice0C4InfoV", "String"]
+- ["22ANAShowAvailableDevice0C4InfoV", "deinit"]
+- ["22ANAShowAvailableDevice0C4InfoV", "deviceTypeName"]
+- ["22ANAShowAvailableDevice0C4InfoV", "encode"]
+- ["22ANAShowAvailableDevice0C4InfoV", "id"]
+- ["22ANAShowAvailableDevice0C4InfoV", "init"]
+- ["22ANAShowAvailableDevice0C4InfoV", "name"]
+- ["22ANAShowAvailableDevice0C4InfoV", "state"]
+- ["22ANAShowAvailableDevice0C4InfoV", "timeZone"]
+- !private ["22ANAShowAvailableDevice0C5StateV", "CodingKeys"]
+- ["22ANAShowAvailableDevice0C5StateV", "String"]
+- ["22ANAShowAvailableDevice0C5StateV", "callState"]
+- ["22ANAShowAvailableDevice0C5StateV", "deinit"]
+- ["22ANAShowAvailableDevice0C5StateV", "encode"]
+- ["22ANAShowAvailableDevice0C5StateV", "init"]
+- ["s9EncodableP", ""]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "accessTimes"]
+- !private ["s9EncodableP", "callState"]
+- !private ["s9EncodableP", "deviceGroup"]
+- !private ["s9EncodableP", "deviceTypeName"]
+- !private ["s9EncodableP", "devices"]
+- !private ["s9EncodableP", "emailAddress"]
+- ["s9EncodableP", "encode"]
+- !private ["s9EncodableP", "friday"]
+- !private ["s9EncodableP", "id"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "isTemporary"]
+- !private ["s9EncodableP", "monday"]
+- !private ["s9EncodableP", "name"]
+- !private ["s9EncodableP", "objects"]
+- !private ["s9EncodableP", "saturday"]
+- !private ["s9EncodableP", "state"]
+- !private ["s9EncodableP", "sunday"]
+- !private ["s9EncodableP", "thursday"]
+- !private ["s9EncodableP", "timeZone"]
+- !private ["s9EncodableP", "tuesday"]
+- !private ["s9EncodableP", "user"]
+- !private ["s9EncodableP", "wednesday"]
+- !private ["s7EncoderP", "container"]
+- !private ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "debugDescription"]
+- ["s9EquatableP", "description"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- ["s9EquatableP", "intValue"]
+- ["s9EquatableP", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "debugDescription"]
+- ["s8HashableP", "description"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- ["s8HashableP", "intValue"]
+- ["s8HashableP", "stringValue"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s22KeyedEncodingContainerV", "encode"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encode"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["22ANAShowAvailableDevice14MembershipInfoV", "CodingKeys"]
+- ["22ANAShowAvailableDevice14MembershipInfoV", "Int"]
+- ["22ANAShowAvailableDevice14MembershipInfoV", "String"]
+- ["22ANAShowAvailableDevice14MembershipInfoV", "accessTimes"]
+- ["22ANAShowAvailableDevice14MembershipInfoV", "deinit"]
+- ["22ANAShowAvailableDevice14MembershipInfoV", "deviceGroup"]
+- ["22ANAShowAvailableDevice14MembershipInfoV", "encode"]
+- ["22ANAShowAvailableDevice14MembershipInfoV", "init"]
+- ["22ANAShowAvailableDevice14MembershipInfoV", "user"]
+- !private ["22ANAShowAvailableDevice19MembershipUserGroupV", "CodingKeys"]
+- ["22ANAShowAvailableDevice19MembershipUserGroupV", "deinit"]
+- ["22ANAShowAvailableDevice19MembershipUserGroupV", "encode"]
+- ["22ANAShowAvailableDevice19MembershipUserGroupV", "init"]
+- ["22ANAShowAvailableDevice19MembershipUserGroupV", "users"]
+- ["s10MirrorPathP", "init"]
+- !private ["22ANAShowAvailableDevice12PermUserInfoV", "CodingKeys"]
+- ["22ANAShowAvailableDevice12PermUserInfoV", "Int"]
+- ["22ANAShowAvailableDevice12PermUserInfoV", "String"]
+- ["22ANAShowAvailableDevice12PermUserInfoV", "deinit"]
+- ["22ANAShowAvailableDevice12PermUserInfoV", "deviceGroup"]
+- ["22ANAShowAvailableDevice12PermUserInfoV", "encode"]
+- ["22ANAShowAvailableDevice12PermUserInfoV", "init"]
+- ["22ANAShowAvailableDevice12PermUserInfoV", "user"]
+- !private ["22ANAShowAvailableDevice15PermanentAccessV", "CodingKeys"]
+- ["22ANAShowAvailableDevice15PermanentAccessV", "TempUserInfo"]
+- ["22ANAShowAvailableDevice15PermanentAccessV", "deinit"]
+- ["22ANAShowAvailableDevice15PermanentAccessV", "encode"]
+- ["22ANAShowAvailableDevice15PermanentAccessV", "init"]
+- ["22ANAShowAvailableDevice15PermanentAccessV", "objects"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s8SequenceP", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- !private ["22ANAShowAvailableDevice12TempUserInfoV", "CodingKeys"]
+- ["22ANAShowAvailableDevice12TempUserInfoV", "Int"]
+- ["22ANAShowAvailableDevice12TempUserInfoV", "String"]
+- ["22ANAShowAvailableDevice12TempUserInfoV", "deinit"]
+- ["22ANAShowAvailableDevice12TempUserInfoV", "deviceGroup"]
+- ["22ANAShowAvailableDevice12TempUserInfoV", "emailAddress"]
+- ["22ANAShowAvailableDevice12TempUserInfoV", "encode"]
+- ["22ANAShowAvailableDevice12TempUserInfoV", "init"]
+- !private ["22ANAShowAvailableDevice15TemporaryAccessV", "CodingKeys"]
+- ["22ANAShowAvailableDevice15TemporaryAccessV", "TempUserInfo"]
+- ["22ANAShowAvailableDevice15TemporaryAccessV", "deinit"]
+- ["22ANAShowAvailableDevice15TemporaryAccessV", "encode"]
+- ["22ANAShowAvailableDevice15TemporaryAccessV", "init"]
+- ["22ANAShowAvailableDevice15TemporaryAccessV", "objects"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["22ANAShowAvailableDevice8UserInfoV", "Bool"]
+- !private ["22ANAShowAvailableDevice8UserInfoV", "CodingKeys"]
+- ["22ANAShowAvailableDevice8UserInfoV", "String"]
+- ["22ANAShowAvailableDevice8UserInfoV", "deinit"]
+- ["22ANAShowAvailableDevice8UserInfoV", "emailAddress"]
+- ["22ANAShowAvailableDevice8UserInfoV", "encode"]
+- ["22ANAShowAvailableDevice8UserInfoV", "init"]
+- ["22ANAShowAvailableDevice8UserInfoV", "isTemporary"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s9CodingKeyP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s7DecoderP"
+- "22ANAShowAvailableDevice17DefaultAccessTimeV"
+- "22ANAShowAvailableDevice019DefaultAccessTimeOfC5GroupV"
+- "22ANAShowAvailableDevice0C9GroupInfoV"
+- "22ANAShowAvailableDevice0C15GroupMembershipV"
+- "22ANAShowAvailableDevice0C4InfoV"
+- "22ANAShowAvailableDevice0C5StateV"
+- "s9EncodableP"
+- !private "s7EncoderP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- !private "s30KeyedEncodingContainerProtocolP"
+- "s25LosslessStringConvertibleP"
+- "22ANAShowAvailableDevice14MembershipInfoV"
+- "22ANAShowAvailableDevice19MembershipUserGroupV"
+- "s10MirrorPathP"
+- "22ANAShowAvailableDevice12PermUserInfoV"
+- "22ANAShowAvailableDevice15PermanentAccessV"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "22ANAShowAvailableDevice12TempUserInfoV"
+- "22ANAShowAvailableDevice15TemporaryAccessV"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "9Alamofire14URLConvertibleP"
+- "22ANAShowAvailableDevice8UserInfoV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "f843d5698431afd890a9dd237222c59e"
