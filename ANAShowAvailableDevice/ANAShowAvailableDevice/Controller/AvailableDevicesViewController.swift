@@ -47,7 +47,7 @@ final class AvailableDevicesViewController: UIViewController {
 extension AvailableDevicesViewController {
     
     private func setupTableView(){
-        availableDevicesTableView.delegate = self
+        //availableDevicesTableView.delegate = self
         availableDevicesTableView.dataSource = availableDevicesProvider
         beamAPIDao.result = self
         print("Received email: \(loggedInEmailAddress)")
