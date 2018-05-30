@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 final class AvailableDevicesViewController: UIViewController {
     
@@ -36,10 +37,10 @@ final class AvailableDevicesViewController: UIViewController {
         setupNavigationBar()
     }
     //MARK: -IBAction
+    
     @IBAction func logOutAction(_ sender: Any) {
         self.navigationController?.popToRootViewController(animated: true)
     }
-    
 }
 
 //MARK: -private func
@@ -56,9 +57,14 @@ extension AvailableDevicesViewController {
     private func registerNib(){
         availableDevicesTableView.register(UINib(nibName: AvailableDevicesTableViewCell.className, bundle: nil), forCellReuseIdentifier: AvailableDevicesTableViewCell.className)
     }
-    private func setupNavigationBar(){
-        self.navigationItem.setHidesBackButton(true, animated: false)
+    private func showAlert(message: String) {
+        let alert = AlertHelper.buildAlert(message: message)
+        present(alert, animated: true, completion: nil)
     }
+    private func setupNavigationBar(){
+        self.navigationItem.setHidesBackButton(true, animated: true)
+    }
+   
 }
 
 //MARK: - FetchResultDelegate
@@ -67,8 +73,9 @@ extension AvailableDevicesViewController: FetchResult {
         switch status {
             
         case .loading:
-            break
+            SVProgressHUD.show()
         case .loaded(let response):
+            SVProgressHUD.dismiss()
             availableDevicesProvider.set(items: response)
             myDeviceGroup = beamAPIDao.deviceGroups
             myIsTemp = beamAPIDao.isTemp
@@ -79,7 +86,13 @@ extension AvailableDevicesViewController: FetchResult {
         case .offline:
             break
         case .error(let message):
+            SVProgressHUD.dismiss()
+            let alert = AlertHelper.buildAlert(title: "ERROR".localized(), message: message, rightButtonTitle: "ALERT_OK".localized(), leftButtonTitle: nil, rightButtonAction: { (_) in
+                self.navigationController?.popToRootViewController(animated: true)
+            }, leftButtonAction: nil)
+            present(alert, animated: true)
             print(message)
+            break
         }
     }
 }

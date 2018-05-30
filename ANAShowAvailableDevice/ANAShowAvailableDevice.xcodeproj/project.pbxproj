@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A99139B20BE2DA700480479 /* AvailableDevicesVC+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99139A20BE2DA700480479 /* AvailableDevicesVC+UITableViewDelegate.swift */; };
+		0A99139D20BE353A00480479 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A99139C20BE353A00480479 /* SVProgressHUD.framework */; };
+		0A9913A020BE36B100480479 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A99139F20BE36B100480479 /* AlertHelper.swift */; };
+		0A9913A220BE36EA00480479 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9913A120BE36EA00480479 /* String+Localized.swift */; };
+		0A9913A420BE370900480479 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A9913A320BE370900480479 /* Localizable.strings */; };
 		0AB8335D20B648B000A9DDFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8335C20B648B000A9DDFC /* AppDelegate.swift */; };
 		0AB8335F20B648B000A9DDFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8335E20B648B000A9DDFC /* ViewController.swift */; };
 		0AB8336220B648B000A9DDFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AB8336020B648B000A9DDFC /* Main.storyboard */; };
@@ -23,12 +26,16 @@
 		0AB8338120B65C1100A9DDFC /* UIStoryboard+Instance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB8338020B65C1100A9DDFC /* UIStoryboard+Instance.swift */; };
 		0AB8338420B6605D00A9DDFC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB8338320B6605D00A9DDFC /* Alamofire.framework */; };
 		0AF82A0020B6B3B000BBD156 /* AvailableDevicesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF829FF20B6B3B000BBD156 /* AvailableDevicesProvider.swift */; };
+		0AF82A0520B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF82A0420B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift */; };
 		0AF82A0720B807AB00BBD156 /* DeviceScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF82A0620B807AB00BBD156 /* DeviceScheduleViewController.swift */; };
 		0AF82A0920B807C000BBD156 /* DeviceScheduleViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF82A0820B807C000BBD156 /* DeviceScheduleViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A99139A20BE2DA700480479 /* AvailableDevicesVC+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AvailableDevicesVC+UITableViewDelegate.swift"; sourceTree = "<group>"; };
+		0A99139C20BE353A00480479 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = Carthage/Build/iOS/SVProgressHUD.framework; sourceTree = "<group>"; };
+		0A99139F20BE36B100480479 /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertHelper.swift; path = Carthage/Build/iOS/SVProgressHUD.framework/AlertHelper.swift; sourceTree = SOURCE_ROOT; };
+		0A9913A120BE36EA00480479 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		0A9913A320BE370900480479 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		0AB8335920B648B000A9DDFC /* ANAShowAvailableDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANAShowAvailableDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB8335C20B648B000A9DDFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AB8335E20B648B000A9DDFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +53,7 @@
 		0AB8338020B65C1100A9DDFC /* UIStoryboard+Instance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+Instance.swift"; path = "ANAShowAvailableDevice/New Group/UIStoryboard+Instance.swift"; sourceTree = SOURCE_ROOT; };
 		0AB8338320B6605D00A9DDFC /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		0AF829FF20B6B3B000BBD156 /* AvailableDevicesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableDevicesProvider.swift; sourceTree = "<group>"; };
+		0AF82A0420B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "AvailableDevicesVC+UITableViewDelegate.swift"; path = "../../../../SkillUpTest1/SkillUpTest1/View/AvailableDevicesVC+UITableViewDelegate.swift"; sourceTree = "<group>"; };
 		0AF82A0620B807AB00BBD156 /* DeviceScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceScheduleViewController.swift; sourceTree = "<group>"; };
 		0AF82A0820B807C000BBD156 /* DeviceScheduleViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DeviceScheduleViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A99139D20BE353A00480479 /* SVProgressHUD.framework in Frameworks */,
 				0AB8338420B6605D00A9DDFC /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A99139E20BE36A100480479 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0A99139F20BE36B100480479 /* AlertHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		0AB8335020B648B000A9DDFC = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +99,7 @@
 		0AB8335B20B648B000A9DDFC /* ANAShowAvailableDevice */ = {
 			isa = PBXGroup;
 			children = (
+				0A99139E20BE36A100480479 /* Helper */,
 				0AB8337D20B65BED00A9DDFC /* Extension */,
 				0AB8337820B65ADB00A9DDFC /* Model */,
 				0AB8337720B65A9C00A9DDFC /* Controller */,
@@ -90,6 +108,7 @@
 				0AB8335C20B648B000A9DDFC /* AppDelegate.swift */,
 				0AB8336520B648B400A9DDFC /* LaunchScreen.storyboard */,
 				0AB8336820B648B400A9DDFC /* Info.plist */,
+				0A9913A320BE370900480479 /* Localizable.strings */,
 			);
 			path = ANAShowAvailableDevice;
 			sourceTree = "<group>";
@@ -133,6 +152,7 @@
 			children = (
 				0AB8337E20B65C0200A9DDFC /* NSObject+ClassName.swift */,
 				0AB8338020B65C1100A9DDFC /* UIStoryboard+Instance.swift */,
+				0A9913A120BE36EA00480479 /* String+Localized.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -140,6 +160,7 @@
 		0AB8338220B6605C00A9DDFC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0A99139C20BE353A00480479 /* SVProgressHUD.framework */,
 				0AB8338320B6605D00A9DDFC /* Alamofire.framework */,
 			);
 			name = Frameworks;
@@ -148,7 +169,7 @@
 		0AF82A0320B7F7E500BBD156 /* AvailableDevicesViewController+UITableViewDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				0A99139A20BE2DA700480479 /* AvailableDevicesVC+UITableViewDelegate.swift */,
+				0AF82A0420B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift */,
 			);
 			path = "AvailableDevicesViewController+UITableViewDelegate";
 			sourceTree = "<group>";
@@ -215,6 +236,7 @@
 				0AB8336720B648B400A9DDFC /* LaunchScreen.storyboard in Resources */,
 				0AB8336420B648B400A9DDFC /* Assets.xcassets in Resources */,
 				0AB8336220B648B000A9DDFC /* Main.storyboard in Resources */,
+				0A9913A420BE370900480479 /* Localizable.strings in Resources */,
 				0AB8337120B659BA00A9DDFC /* AvailableDevicesViewController.storyboard in Resources */,
 				0AF82A0920B807C000BBD156 /* DeviceScheduleViewController.storyboard in Resources */,
 				0AB8337520B65A3C00A9DDFC /* AvailableDevicesTableViewCell.xib in Resources */,
@@ -231,6 +253,7 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
 			);
 			outputPaths = (
 			);
@@ -245,15 +268,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9913A020BE36B100480479 /* AlertHelper.swift in Sources */,
 				0AB8335F20B648B000A9DDFC /* ViewController.swift in Sources */,
 				0AF82A0020B6B3B000BBD156 /* AvailableDevicesProvider.swift in Sources */,
 				0AF82A0720B807AB00BBD156 /* DeviceScheduleViewController.swift in Sources */,
+				0A9913A220BE36EA00480479 /* String+Localized.swift in Sources */,
 				0AB8337420B65A3C00A9DDFC /* AvailableDevicesTableViewCell.swift in Sources */,
 				0AB8336F20B659A600A9DDFC /* AvailableDevicesViewController.swift in Sources */,
 				0AB8337C20B65B1200A9DDFC /* BeamAPIDto.swift in Sources */,
 				0AB8335D20B648B000A9DDFC /* AppDelegate.swift in Sources */,
-				0A99139B20BE2DA700480479 /* AvailableDevicesVC+UITableViewDelegate.swift in Sources */,
 				0AB8338120B65C1100A9DDFC /* UIStoryboard+Instance.swift in Sources */,
+				0AF82A0520B7F82100BBD156 /* AvailableDevicesVC+UITableViewDelegate.swift in Sources */,
 				0AB8337A20B65B0100A9DDFC /* BeamAPIDao.swift in Sources */,
 				0AB8337F20B65C0200A9DDFC /* NSObject+ClassName.swift in Sources */,
 			);

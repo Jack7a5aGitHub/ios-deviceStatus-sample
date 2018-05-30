@@ -1,2 +1,3 @@
 github "Alamofire/Alamofire"
 github "patchthecode/JTAppleCalendar"
+github "SVProgressHUD/SVProgressHUD"

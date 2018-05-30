@@ -33,9 +33,9 @@
                         <viewLayoutGuide key="safeArea" id="49E-zY-QX5"/>
                     </view>
                     <navigationItem key="navigationItem" id="jp7-Hm-j2T">
-                        <barButtonItem key="rightBarButtonItem" title="ログアウト" id="P61-LH-3gb">
+                        <barButtonItem key="rightBarButtonItem" title="ログアウト" id="K5T-Iy-eeq">
                             <connections>
-                                <action selector="logOutAction:" destination="vwC-hL-clk" id="MyW-OR-XE2"/>
+                                <action selector="logOutAction:" destination="vwC-hL-clk" id="UHB-BH-XO0"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

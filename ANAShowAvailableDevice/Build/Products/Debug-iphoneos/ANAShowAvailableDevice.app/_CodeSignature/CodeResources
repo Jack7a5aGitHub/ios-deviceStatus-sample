@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		JNjqtq8ERsOlsoiXZ9bMthrONMI=
+		YRGBBxVvOXgBoaj2trtv4fLvJ/0=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -115,6 +115,10 @@
 		<key>Info.plist</key>
 		<data>
 		q7yf8e4jpSu0dCJ1g1+y+I+SGRM=
+		</data>
+		<key>Localizable.strings</key>
+		<data>
+		XRSV+tX80b/GEXTH+AsCqYxPZ54=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -256,11 +260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JNjqtq8ERsOlsoiXZ9bMthrONMI=
+			YRGBBxVvOXgBoaj2trtv4fLvJ/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			No61wmQxWk6kRMlkYka28S1SasKMlUIUoJnLHMU/wmo=
+			00xM/OWIKthlLCB8djTP2XYLFRZjfrpS9KxP8SAPirM=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -426,6 +430,17 @@
 			<key>hash2</key>
 			<data>
 			XoynYHw+2Xd/cKvKsKsKrdGHTt8TLulhiMTqVpIwaTA=
+			</data>
+		</dict>
+		<key>Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XRSV+tX80b/GEXTH+AsCqYxPZ54=
+			</data>
+			<key>hash2</key>
+			<data>
+			9WUi/E0E5Zm+KMDpfVHuWFapm+q71coFgM7j/jZdFiw=
 			</data>
 		</dict>
 		<key>embedded.mobileprovision</key>

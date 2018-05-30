@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  ANAShowAvailableDevice
+
+  Created by Jack Wong on 2018/05/30.
+  Copyright © 2018 Jack. All rights reserved.
+*/
+
+// MARK: - Alert Button
+"ALERT_OK" = "OK";
+"ERROR" = "エラー";
+"EMAIL NOT EXIST" = "アカウント存在していない";
+
+// MARK: - Message
+"OFFLINE" = "通信環境の良い場所で再度お試しください。";
+"TIMEOUT" = "タイムアウトになりました。";
+"EMPTY_TEXT" = "歌手名または曲名を入力してください";

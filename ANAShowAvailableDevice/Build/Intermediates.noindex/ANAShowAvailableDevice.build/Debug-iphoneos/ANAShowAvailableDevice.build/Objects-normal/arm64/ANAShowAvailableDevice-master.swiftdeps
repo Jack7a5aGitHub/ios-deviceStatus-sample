@@ -1,12 +1,14 @@
 version: "Apple Swift version 4.1 (swiftlang-902.0.48 clang-902.0.37.1)"
 options: "40aebb3f76b5214ae0329f8e9052a295"
-build_time: [1527641008, 872045000]
+build_time: [1527644043, 85472000]
 inputs:
+  "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/SVProgressHUD.framework/AlertHelper.swift": [1527643991, 0]
   "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/Controller/ViewController.swift": [1527640989, 0]
   "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/View/AvailableDevicesProvider.swift": [1527237765, 0]
   "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/Controller/DeviceScheduleViewController.swift": [1527256218, 0]
+  "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/Extension/String+Localized.swift": [1527644042, 0]
   "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/View/AvailableDevicesTableViewCell.swift": [1527238045, 0]
-  "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/Controller/AvailableDevicesViewController.swift": [1527640989, 0]
+  "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/Controller/AvailableDevicesViewController.swift": [1527643954, 0]
   "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/New Group/BeamAPIDto.swift": [1527493691, 0]
   "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/AppDelegate.swift": [1527124272, 0]
   "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/ANAShowAvailableDevice/New Group/UIStoryboard+Instance.swift": [1527129331, 0]

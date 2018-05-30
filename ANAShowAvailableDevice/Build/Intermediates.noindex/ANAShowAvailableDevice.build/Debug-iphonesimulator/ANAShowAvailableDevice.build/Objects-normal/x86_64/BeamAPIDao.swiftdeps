@@ -31,6 +31,7 @@ depends-top-level:
 - "HTTPHeaders"
 - "Int"
 - !private "JSONDecoder"
+- !private "NSError"
 - "String"
 - "StringLiteralType"
 - !private "TemporaryAccess"
@@ -56,6 +57,7 @@ depends-member:
 - ["22ANAShowAvailableDevice10BeamAPIDaoC", "HTTPHeaders"]
 - ["22ANAShowAvailableDevice10BeamAPIDaoC", "Int"]
 - !private ["22ANAShowAvailableDevice10BeamAPIDaoC", "JSONDecoder"]
+- !private ["22ANAShowAvailableDevice10BeamAPIDaoC", "NSError"]
 - ["22ANAShowAvailableDevice10BeamAPIDaoC", "String"]
 - !private ["22ANAShowAvailableDevice10BeamAPIDaoC", "TemporaryAccess"]
 - !private ["22ANAShowAvailableDevice10BeamAPIDaoC", "URL"]
@@ -84,6 +86,7 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "count"]
 - ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "isEmpty"]
+- !private ["s23BidirectionalCollectionP", "localized"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "_getBuiltinLogicValue"]
@@ -91,27 +94,35 @@ depends-member:
 - !private ["s7CVarArgP", "count"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "localized"]
+- !private ["s7CVarArgP", "localizedDescription"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s10CollectionP", "append"]
 - !private ["s10CollectionP", "count"]
 - ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "isEmpty"]
+- !private ["s10CollectionP", "localized"]
 - !private ["s10CollectionP", "subscript"]
 - ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "localized"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - !private ["s28CustomDebugStringConvertibleP", "data"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "localized"]
+- !private ["s28CustomDebugStringConvertibleP", "localizedDescription"]
 - !private ["s28CustomDebugStringConvertibleP", "responseString"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "localized"]
 - !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "count"]
 - ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "localized"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "append"]
@@ -119,6 +130,8 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "data"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "localized"]
+- !private ["s23CustomStringConvertibleP", "localizedDescription"]
 - !private ["s23CustomStringConvertibleP", "responseString"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
 - !private ["9Alamofire11DataRequestC", "responseString"]
@@ -133,6 +146,7 @@ depends-member:
 - ["s9DecodableP", "init"]
 - !private ["s9DecodableP", "isEmpty"]
 - !private ["s9DecodableP", "isTemporary"]
+- !private ["s9DecodableP", "localized"]
 - !private ["s9DecodableP", "objects"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s9DecodableP", "user"]
@@ -154,6 +168,7 @@ depends-member:
 - ["s9EncodableP", "init"]
 - !private ["s9EncodableP", "isEmpty"]
 - !private ["s9EncodableP", "isTemporary"]
+- !private ["s9EncodableP", "localized"]
 - !private ["s9EncodableP", "objects"]
 - !private ["s9EncodableP", "subscript"]
 - !private ["s9EncodableP", "user"]
@@ -162,6 +177,8 @@ depends-member:
 - !private ["s9EquatableP", "count"]
 - ["s9EquatableP", "init"]
 - !private ["s9EquatableP", "isEmpty"]
+- !private ["s9EquatableP", "localized"]
+- !private ["s9EquatableP", "localizedDescription"]
 - !private ["s9EquatableP", "subscript"]
 - !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
@@ -171,8 +188,11 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "localized"]
 - ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "localized"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "localized"]
 - ["22ANAShowAvailableDevice14FetchAPIStatusO", "DeviceInfo"]
 - ["22ANAShowAvailableDevice14FetchAPIStatusO", "String"]
 - ["22ANAShowAvailableDevice14FetchAPIStatusO", "error"]
@@ -184,20 +204,40 @@ depends-member:
 - ["22ANAShowAvailableDevice11FetchResultP", "set"]
 - !private ["s8HashableP", "_getBuiltinLogicValue"]
 - ["s8HashableP", "init"]
+- !private ["s8HashableP", "localized"]
+- !private ["s8HashableP", "localizedDescription"]
 - !private ["10Foundation11JSONDecoderC", "decode"]
 - !private ["10Foundation11JSONDecoderC", "init"]
 - !private ["10Foundation11JSONDecoderC", "keyDecodingStrategy"]
 - !private ["10Foundation11JSONDecoderC19KeyDecodingStrategyO", "convertFromSnakeCase"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "localized"]
 - !private ["22ANAShowAvailableDevice14MembershipInfoV", "accessTimes"]
+- !private ["22ANAShowAvailableDevice14MembershipInfoV", "deviceGroup"]
 - !private ["22ANAShowAvailableDevice14MembershipInfoV", "user"]
 - ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "localized"]
 - !private ["s17MutableCollectionP", "append"]
 - !private ["s17MutableCollectionP", "count"]
 - ["s17MutableCollectionP", "init"]
 - !private ["s17MutableCollectionP", "isEmpty"]
 - !private ["s17MutableCollectionP", "subscript"]
+- !private ["So8NSCodingP", "localized"]
+- !private ["So8NSCodingP", "localizedDescription"]
+- !private ["So9NSCopyingP", "localized"]
+- !private ["So9NSCopyingP", "localizedDescription"]
+- !private ["So7NSErrorC", "localizedDescription"]
+- !private ["So21NSItemProviderReadingP", "localized"]
+- !private ["So21NSItemProviderWritingP", "localized"]
+- !private ["So16NSMutableCopyingP", "localized"]
+- !private ["So8NSObjectC", "localized"]
+- !private ["So8NSObjectC", "localizedDescription"]
+- !private ["So16NSObjectProtocolP", "localized"]
+- !private ["So16NSObjectProtocolP", "localizedDescription"]
+- !private ["So14NSSecureCodingP", "localized"]
+- !private ["So14NSSecureCodingP", "localizedDescription"]
+- !private ["So8NSStringC", "localized"]
 - !private ["s22RandomAccessCollectionP", "append"]
 - !private ["s22RandomAccessCollectionP", "count"]
 - ["s22RandomAccessCollectionP", "init"]
@@ -207,6 +247,7 @@ depends-member:
 - !private ["s26RangeReplaceableCollectionP", "count"]
 - ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "isEmpty"]
+- !private ["s26RangeReplaceableCollectionP", "localized"]
 - !private ["s26RangeReplaceableCollectionP", "subscript"]
 - !private ["10Foundation20ReferenceConvertibleP", "init"]
 - !private ["9Alamofire7RequestC", "responseString"]
@@ -215,17 +256,23 @@ depends-member:
 - !private ["s8SequenceP", "count"]
 - ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "isEmpty"]
+- !private ["s8SequenceP", "localized"]
 - !private ["s8SequenceP", "subscript"]
 - ["SS", "init"]
+- !private ["SS", "localized"]
 - ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "localized"]
 - !private ["22ANAShowAvailableDevice12TempUserInfoV", "deviceGroup"]
 - !private ["22ANAShowAvailableDevice12TempUserInfoV", "emailAddress"]
 - !private ["22ANAShowAvailableDevice15TemporaryAccessV", "deinit"]
 - !private ["22ANAShowAvailableDevice15TemporaryAccessV", "objects"]
 - ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "localized"]
 - ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "localized"]
 - !private ["10Foundation3URLV", "init"]
 - ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "localized"]
 - !private ["22ANAShowAvailableDevice8UserInfoV", "deinit"]
 - !private ["22ANAShowAvailableDevice8UserInfoV", "emailAddress"]
 - !private ["22ANAShowAvailableDevice8UserInfoV", "isTemporary"]
@@ -241,18 +288,28 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "localized"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "localized"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "localized"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "localized"]
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "localized"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "localized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localized"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "localizedDescription"]
 - !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "localized"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "localized"]
 depends-nominal:
 - "Sa"
 - "22ANAShowAvailableDevice10BeamAPIDaoC"
@@ -290,6 +347,16 @@ depends-nominal:
 - !private "22ANAShowAvailableDevice14MembershipInfoV"
 - "s10MirrorPathP"
 - "s17MutableCollectionP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So7NSErrorC"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
 - "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
 - !private "10Foundation20ReferenceConvertibleP"
@@ -314,12 +381,14 @@ depends-nominal:
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s34_ExpressibleByFileReferenceLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
-- "/Users/jackwong/ios-deviceStatus-sample/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
@@ -332,9 +401,11 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/jackwong/ios-deviceStatus-sample/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
-- "/Users/jackwong/ios-deviceStatus-sample/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
-- "/Users/jackwong/ios-deviceStatus-sample/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire.h"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/jackwong/Desktop/Developer/ANAShowAvailableDevice/Carthage/Build/iOS/Alamofire.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"

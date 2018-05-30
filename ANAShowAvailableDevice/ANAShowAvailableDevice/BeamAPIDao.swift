@@ -69,8 +69,9 @@ final class BeamAPIDao {
                         break
                     }
                 }
-            } catch {
-                print(error.localizedDescription)
+            } catch let error as NSError {
+                self.result?.set(status: .error(message: "EMAIL NOT EXIST".localized()))
+                print("Error: \(error.localizedDescription)")
             }
         }
     }
@@ -108,11 +109,11 @@ final class BeamAPIDao {
                 let decoder = JSONDecoder()
                 decoder.keyDecodingStrategy = .convertFromSnakeCase
                 do {
-                    let tempAccess = try decoder.decode(TemporaryAccess.self, from: json)
-                    let tempUserInfo = tempAccess.objects
-                    for user in tempUserInfo where user.emailAddress == self.loginEmail{
+                    let permAccess = try decoder.decode(DeviceGroupMembership.self, from: json)
+                    let permUserInfo = permAccess.objects
+                    for user in permUserInfo where user.user == self.loginEmail{
                         self.deviceGroups.append(user.deviceGroup)
-                        print("Filtered \(self.deviceGroups)")
+                        print("Perm Filtered \(user)")
                     }
                     completionHandler()
                 } catch {
@@ -186,7 +187,7 @@ final class BeamAPIDao {
             do {
                 let deviceGroupMembershipInfo = try decoder.decode(DeviceGroupMembership.self, from: json)
                 let membershipInfo = deviceGroupMembershipInfo.objects
-                print(membershipInfo)
+               // print(membershipInfo)
                 for member in membershipInfo where self.loginEmail == member.user {
                     print(member.accessTimes)
                     if !member.accessTimes.isEmpty {
