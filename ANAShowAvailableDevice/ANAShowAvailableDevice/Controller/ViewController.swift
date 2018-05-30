@@ -10,6 +10,9 @@ import UIKit
 
 final class ViewController: UIViewController {
     
+    //MARK: Properties
+    private let beamAPIDao = BeamAPIDao()
+    
     //MARK: -IBOutlet
     @IBOutlet weak var emailAddress: UITextField!
     @IBOutlet weak var password: UITextField!
@@ -17,6 +20,7 @@ final class ViewController: UIViewController {
     //MARK: -LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupLoginPage()
     }
     
     //MARK: -IBAction
@@ -28,11 +32,34 @@ final class ViewController: UIViewController {
 extension ViewController {
     private func login(){
         if !(emailAddress.text?.isEmpty)! && !(password.text?.isEmpty)! {
-           let availableDevicesVC = AvailableDevicesViewController.make(with: emailAddress.text!)
-            self.navigationController?.pushViewController(availableDevicesVC, animated: true)
+            beamAPIDao.checkUserExistOrNot(email: emailAddress.text!)
         }
+    }
+    private func setupLoginPage(){
+        beamAPIDao.result = self
     }
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
+}
+
+//MARK: FetchResultDelegate
+extension ViewController: FetchResult {
+    
+    func set(status: FetchAPIStatus) {
+        switch status {
+        case .success:
+            let availableDevicesVC = AvailableDevicesViewController.make(with: emailAddress.text!)
+            self.navigationController?.pushViewController(availableDevicesVC, animated: true)
+            break
+        case .error(let message):
+            let alert = AlertHelper.buildAlert(title: "ERROR".localized(), message: message, rightButtonTitle: "ALERT_OK".localized(), leftButtonTitle: nil, rightButtonAction: nil, leftButtonAction: nil)
+            present(alert, animated: true)
+            print(message)
+            break
+        default:
+            break
+        }
+    }
+    
 }

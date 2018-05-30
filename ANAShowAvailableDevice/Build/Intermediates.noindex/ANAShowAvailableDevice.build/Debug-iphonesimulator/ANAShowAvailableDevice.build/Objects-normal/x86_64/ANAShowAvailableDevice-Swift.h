@@ -237,10 +237,6 @@ SWIFT_CLASS("_TtC22ANAShowAvailableDevice30AvailableDevicesViewController")
 @end
 
 
-@interface AvailableDevicesViewController (SWIFT_EXTENSION(ANAShowAvailableDevice)) <UITableViewDelegate>
-@end
-
-
 
 
 
@@ -267,6 +263,8 @@ SWIFT_CLASS("_TtC22ANAShowAvailableDevice14ViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 @class UITouch;
 @class UIEvent;

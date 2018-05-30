@@ -50,7 +50,7 @@
 		</data>
 		<key>Frameworks/Alamofire.framework/Alamofire</key>
 		<data>
-		Zr5nTuVFTQAtiMWcHFlqZbaLtoM=
+		Sc+fqjWBLqQDYavLEhQx/EP8PSc=
 		</data>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD</key>
 		<data>
-		1CkQohv/T3hmZptt5BwxFA2+Adg=
+		kvjFDLwUR8rARQiVYLZPRxKhm4s=
 		</data>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png</key>
 		<data>
@@ -324,11 +324,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Zr5nTuVFTQAtiMWcHFlqZbaLtoM=
+			Sc+fqjWBLqQDYavLEhQx/EP8PSc=
 			</data>
 			<key>hash2</key>
 			<data>
-			9sOqgxIC5e5mTgl2wghBQwFE02Gw0B2eH/8oH/sbRKI=
+			RWdnoUQZ1UPHpK6XF0dyK8424qpuwQ3JNzHiMjqtPKk=
 			</data>
 		</dict>
 		<key>Frameworks/Alamofire.framework/Info.plist</key>
@@ -379,11 +379,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1CkQohv/T3hmZptt5BwxFA2+Adg=
+			kvjFDLwUR8rARQiVYLZPRxKhm4s=
 			</data>
 			<key>hash2</key>
 			<data>
-			+rpRYHhif/yqA6s/0q8GvquUr84XuzuIvUZzSsGvE/g=
+			Q44S709wrrwVRW3mzcSaIqCqx4DlBY7HPASJukgPq1U=
 			</data>
 		</dict>
 		<key>Frameworks/SVProgressHUD.framework/SVProgressHUD.bundle/angle-mask.png</key>

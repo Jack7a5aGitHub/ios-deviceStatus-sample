@@ -16,6 +16,7 @@ enum FetchAPIStatus {
     case timeout
     case offline
     case error(message:String)
+    case success
 }
 
 protocol FetchResult: class {
@@ -34,6 +35,27 @@ final class BeamAPIDao {
     var allDevices = [DeviceInfo]()
     var isTemp = false
     //MARK: -func
+    func checkUserExistOrNot(email: String!){
+        let path = baseURLString + "/users/\(email!)/"
+        print("Path: \(path)")
+        let url = URL(string: path)!
+        Alamofire.request(url,headers: headers).responseString { (response) in
+            
+            guard let json = response.data else { return }
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            do {
+                let user = try decoder.decode(UserInfo.self, from: json)
+                print(user)
+                self.result?.set(status: .success)
+            } catch let error as NSError {
+                self.result?.set(status: .error(message: "EMAIL NOT EXIST".localized()))
+                print("Error: \(error.localizedDescription)")
+            }
+        }
+    }
+    
+    
     func fetchUserData(email: String!){
         result?.set(status: .loading)
         let path = baseURLString + "/users/\(email!)/"
@@ -70,7 +92,6 @@ final class BeamAPIDao {
                     }
                 }
             } catch let error as NSError {
-                self.result?.set(status: .error(message: "EMAIL NOT EXIST".localized()))
                 print("Error: \(error.localizedDescription)")
             }
         }

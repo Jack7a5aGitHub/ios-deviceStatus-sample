@@ -65,6 +65,7 @@ depends-member:
 - ["22ANAShowAvailableDevice10BeamAPIDaoC", "Void"]
 - ["22ANAShowAvailableDevice10BeamAPIDaoC", "allDevices"]
 - !private ["22ANAShowAvailableDevice10BeamAPIDaoC", "baseURLString"]
+- ["22ANAShowAvailableDevice10BeamAPIDaoC", "checkUserExistOrNot"]
 - ["22ANAShowAvailableDevice10BeamAPIDaoC", "deinit"]
 - ["22ANAShowAvailableDevice10BeamAPIDaoC", "deviceGroups"]
 - !private ["22ANAShowAvailableDevice10BeamAPIDaoC", "devices"]
@@ -199,6 +200,7 @@ depends-member:
 - ["22ANAShowAvailableDevice14FetchAPIStatusO", "loaded"]
 - ["22ANAShowAvailableDevice14FetchAPIStatusO", "loading"]
 - ["22ANAShowAvailableDevice14FetchAPIStatusO", "offline"]
+- ["22ANAShowAvailableDevice14FetchAPIStatusO", "success"]
 - ["22ANAShowAvailableDevice14FetchAPIStatusO", "timeout"]
 - ["22ANAShowAvailableDevice11FetchResultP", "FetchAPIStatus"]
 - ["22ANAShowAvailableDevice11FetchResultP", "set"]
@@ -416,4 +418,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "2166c30a6074f9d5a47051ef66e65b22"
+interface-hash: "5ef72df32af58a49bbf26039bb775ff7"

@@ -71,7 +71,6 @@ extension AvailableDevicesViewController {
 extension AvailableDevicesViewController: FetchResult {
     func set(status: FetchAPIStatus) {
         switch status {
-            
         case .loading:
             SVProgressHUD.show()
         case .loaded(let response):
@@ -86,12 +85,9 @@ extension AvailableDevicesViewController: FetchResult {
         case .offline:
             break
         case .error(let message):
-            SVProgressHUD.dismiss()
-            let alert = AlertHelper.buildAlert(title: "ERROR".localized(), message: message, rightButtonTitle: "ALERT_OK".localized(), leftButtonTitle: nil, rightButtonAction: { (_) in
-                self.navigationController?.popToRootViewController(animated: true)
-            }, leftButtonAction: nil)
-            present(alert, animated: true)
-            print(message)
+            print("Message :\(message)")
+            break
+        case .success:
             break
         }
     }
